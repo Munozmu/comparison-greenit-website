@@ -1,0 +1,15 @@
+table {
+  width: 70%;
+  margin-left: 15%;
+  text-align: left;
+}
+
+td{
+    height: 30px;
+}
+
+.table-title{
+    font-weight: 600;
+    height: 60px;
+}
+

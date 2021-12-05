@@ -1,0 +1,136 @@
+/* MAIN */
+
+body {
+  background-color: #e2e9e1;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*::selection {
+  background-color: rgb(25, 120, 20);
+}
+
+.container {
+  padding: 5% 20%;
+}
+
+h1 {
+  color: #3a3a3a;
+}
+
+h2 {
+  color: #3a3a3a;
+}
+
+a {
+  color: #356b1c;
+  transition: all ease 0.3s;
+}
+a:hover {
+  color: #193d08;
+  transition: all ease 0.3s;
+}
+
+.classic-button {
+  border: solid 1px #55a630;
+  color: #55a630;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.classic-button:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.big-button {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #55a630;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.big-button:hover {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #77af5d;
+}
+
+/* NAVIGATION */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  color: #55a630;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-link-active{
+  font-weight: 600;
+}
+
+.nav-title {
+  display: block;
+  color: #55a630;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #f3f3f3;
+}
+
+/* MAIN SECTION TITLE */
+.main-section {
+  text-align: center;
+  font-size: x-large;
+}
+
+/* COMPARAISON SECTION */
+.second-section {
+  min-width: 70%;
+  min-height: 50%;
+  margin-left: 15%;
+  display: flex;
+}
+
+.second-section:last-child {
+  margin-left: 20%;
+}
+
+.enterprise {
+  background-color: white;
+  border: solid 1px #bebebe;
+  width: 35%;
+  display: block;
+}
+
+.card-img {
+  min-width: 100%;
+  min-height: 250px;
+  background-image: url("../img/Agreenculture.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.call-to-a {
+  margin: 10% 0;
+  text-align: center;
+}
