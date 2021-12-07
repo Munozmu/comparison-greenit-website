@@ -1,4 +1,6 @@
-/* MAIN */
+/*---------------------------*/
+/* MAIN SETTINGS CLASS STYLE */
+/*---------------------------*/
 
 body {
   background-color: #e2e9e1;
@@ -6,32 +8,20 @@ body {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* On cible tout le document */
 *::selection {
   background-color: rgb(25, 120, 20);
 }
-
+/* Conteneur principal, pour aérer le site */
 .container {
   padding: 5% 20%;
 }
+h1 {color: #3a3a3a;}
+h2 {color: #3a3a3a;}
+a {color: #356b1c;transition: all ease 0.3s;}
+a:hover {color: #193d08;transition: all ease 0.3s;}
 
-h1 {
-  color: #3a3a3a;
-}
-
-h2 {
-  color: #3a3a3a;
-}
-
-a {
-  color: #356b1c;
-  transition: all ease 0.3s;
-}
-a:hover {
-  color: #193d08;
-  transition: all ease 0.3s;
-}
-
+/* Custom buttons */
 .classic-button {
   border: solid 1px #55a630;
   color: #55a630;
@@ -39,12 +29,17 @@ a:hover {
   background-color: #fff;
   text-decoration: none;
 }
-
 .classic-button:hover {
   background-color: #f2f2f2;
   cursor: pointer;
 }
 
+/* Main oage call-to-action section */
+.call-to-a {
+  margin: 10% 0;
+  text-align: center;
+}
+/* Big button of call-to-action section */
 .big-button {
   color: #fff;
   padding: 10px 20px;
@@ -60,7 +55,9 @@ a:hover {
   background-color: #77af5d;
 }
 
+/*------------*/
 /* NAVIGATION */
+/*------------*/
 
 ul {
   list-style-type: none;
@@ -93,18 +90,24 @@ li {
   padding: 14px 16px;
   text-decoration: none;
 }
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
   background-color: #f3f3f3;
 }
 
+/*--------------------*/
 /* MAIN SECTION TITLE */
+/*--------------------*/
+
 .main-section {
   text-align: center;
   font-size: x-large;
 }
 
+/*---------------------*/
 /* COMPARAISON SECTION */
+/*---------------------*/
+
 .second-section {
   min-width: 70%;
   min-height: 50%;
@@ -129,15 +132,24 @@ li a:hover {
   line-height: 160%;
 }
 
+/*--------------------------------*/
+/*CARTE DE COMPARAISON ENTREPRISES*/
+/*--------------------------------*/
+
+/* L'image de la carte de présentation des entreprises */
 .card-img {
   min-width: 100%;
   min-height: 250px;
-  background-image: url("../img/Agreenculture.png");
-  background-size: cover;
   background-position: center;
 }
-
-.call-to-a {
-  margin: 10% 0;
-  text-align: center;
+/* L'image de agreenculture */
+.agreenculture{
+  background-image: url("../img/Agreenculture.png");
+  background-size: cover;
+}
+/* l'image de waltr */
+.waltr{
+  background-image: url("../img/waltr.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
