@@ -11,3 +11,5 @@ Les images et logos appartiennent aux entreprises respectives.
 lien du repository Github :
 https://github.com/Munozmu/comparison-greenit-website
 repository appartenant à Gabin Munoz
+
+réalisé en Vanilla HTML/CSS/JS
