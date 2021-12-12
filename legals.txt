@@ -1,5 +1,5 @@
 Site web hébergé par : Netlify
-Développé par : Gabin Munoz, Badr-eddine mimouni
+Développé par : Gabin Munoz, Badr-Eddine mimouni
 Version : 1
 Dernière modif : 12/12/2021
 Pour : IUT Blagnac
